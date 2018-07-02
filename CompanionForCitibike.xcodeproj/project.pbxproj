@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23B1E9C720EAB7AF0071B046 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1E9C420EAB7AE0071B046 /* API.swift */; };
+		23B1E9C820EAB7AF0071B046 /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = 23B1E9C520EAB7AF0071B046 /* schema.json */; };
+		23B1E9C920EAB7AF0071B046 /* StationList.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 23B1E9C620EAB7AF0071B046 /* StationList.graphql */; };
 		23EAF56A20EA9B57000D3753 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EAF56920EA9B57000D3753 /* AppDelegate.swift */; };
 		23EAF56C20EA9B57000D3753 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EAF56B20EA9B57000D3753 /* ViewController.swift */; };
 		23EAF56F20EA9B57000D3753 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23EAF56D20EA9B57000D3753 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 		23EAF57720EA9B58000D3753 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23EAF57520EA9B58000D3753 /* LaunchScreen.storyboard */; };
 		23EAF58220EA9B58000D3753 /* CompanionForCitibikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EAF58120EA9B58000D3753 /* CompanionForCitibikeTests.swift */; };
 		23EAF58D20EA9B58000D3753 /* CompanionForCitibikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EAF58C20EA9B58000D3753 /* CompanionForCitibikeUITests.swift */; };
+		5562C93A724B8D8EE47A89C3 /* Pods_CompanionForCitibike.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87540AC8E85C4D71073DA06 /* Pods_CompanionForCitibike.framework */; };
+		7B555A5673566C26FED6F0E4 /* Pods_CompanionForCitibikeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88F24B5A093DAB0F7E8968B6 /* Pods_CompanionForCitibikeTests.framework */; };
+		ED5282ED957F7DF7A24181AF /* Pods_CompanionForCitibikeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90BF0FEA477C6946500C10E2 /* Pods_CompanionForCitibikeUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23B1E9C420EAB7AE0071B046 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		23B1E9C520EAB7AF0071B046 /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
+		23B1E9C620EAB7AF0071B046 /* StationList.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = StationList.graphql; sourceTree = "<group>"; };
 		23EAF56620EA9B57000D3753 /* CompanionForCitibike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompanionForCitibike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23EAF56920EA9B57000D3753 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23EAF56B20EA9B57000D3753 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +58,15 @@
 		23EAF58820EA9B58000D3753 /* CompanionForCitibikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompanionForCitibikeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23EAF58C20EA9B58000D3753 /* CompanionForCitibikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanionForCitibikeUITests.swift; sourceTree = "<group>"; };
 		23EAF58E20EA9B58000D3753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29CD78D35E44F9F4F7CA39EC /* Pods-CompanionForCitibikeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompanionForCitibikeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CompanionForCitibikeTests/Pods-CompanionForCitibikeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6969D56832FF7ED2BBCD3E78 /* Pods-CompanionForCitibikeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompanionForCitibikeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CompanionForCitibikeUITests/Pods-CompanionForCitibikeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7FAF9E15762CB7551D0544B2 /* Pods-CompanionForCitibike.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompanionForCitibike.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CompanionForCitibike/Pods-CompanionForCitibike.debug.xcconfig"; sourceTree = "<group>"; };
+		801293B42099D9C209945846 /* Pods-CompanionForCitibike.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompanionForCitibike.release.xcconfig"; path = "Pods/Target Support Files/Pods-CompanionForCitibike/Pods-CompanionForCitibike.release.xcconfig"; sourceTree = "<group>"; };
+		88F24B5A093DAB0F7E8968B6 /* Pods_CompanionForCitibikeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CompanionForCitibikeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90BF0FEA477C6946500C10E2 /* Pods_CompanionForCitibikeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CompanionForCitibikeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA42A7AA1869A3A86428A0C8 /* Pods-CompanionForCitibikeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompanionForCitibikeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CompanionForCitibikeUITests/Pods-CompanionForCitibikeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C87540AC8E85C4D71073DA06 /* Pods_CompanionForCitibike.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CompanionForCitibike.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7F962203E042EBEBF7E941E /* Pods-CompanionForCitibikeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompanionForCitibikeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CompanionForCitibikeTests/Pods-CompanionForCitibikeTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5562C93A724B8D8EE47A89C3 /* Pods_CompanionForCitibike.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B555A5673566C26FED6F0E4 /* Pods_CompanionForCitibikeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED5282ED957F7DF7A24181AF /* Pods_CompanionForCitibikeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +104,8 @@
 				23EAF58020EA9B58000D3753 /* CompanionForCitibikeTests */,
 				23EAF58B20EA9B58000D3753 /* CompanionForCitibikeUITests */,
 				23EAF56720EA9B57000D3753 /* Products */,
+				296C97A6BD183E33F9E22184 /* Pods */,
+				FCE938F760E118EF4C6B55B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +122,9 @@
 		23EAF56820EA9B57000D3753 /* CompanionForCitibike */ = {
 			isa = PBXGroup;
 			children = (
+				23B1E9C420EAB7AE0071B046 /* API.swift */,
+				23B1E9C520EAB7AF0071B046 /* schema.json */,
+				23B1E9C620EAB7AF0071B046 /* StationList.graphql */,
 				23EAF56920EA9B57000D3753 /* AppDelegate.swift */,
 				23EAF56B20EA9B57000D3753 /* ViewController.swift */,
 				23EAF56D20EA9B57000D3753 /* Main.storyboard */,
@@ -128,6 +154,29 @@
 			path = CompanionForCitibikeUITests;
 			sourceTree = "<group>";
 		};
+		296C97A6BD183E33F9E22184 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FAF9E15762CB7551D0544B2 /* Pods-CompanionForCitibike.debug.xcconfig */,
+				801293B42099D9C209945846 /* Pods-CompanionForCitibike.release.xcconfig */,
+				29CD78D35E44F9F4F7CA39EC /* Pods-CompanionForCitibikeTests.debug.xcconfig */,
+				D7F962203E042EBEBF7E941E /* Pods-CompanionForCitibikeTests.release.xcconfig */,
+				6969D56832FF7ED2BBCD3E78 /* Pods-CompanionForCitibikeUITests.debug.xcconfig */,
+				BA42A7AA1869A3A86428A0C8 /* Pods-CompanionForCitibikeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FCE938F760E118EF4C6B55B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C87540AC8E85C4D71073DA06 /* Pods_CompanionForCitibike.framework */,
+				88F24B5A093DAB0F7E8968B6 /* Pods_CompanionForCitibikeTests.framework */,
+				90BF0FEA477C6946500C10E2 /* Pods_CompanionForCitibikeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23EAF59120EA9B58000D3753 /* Build configuration list for PBXNativeTarget "CompanionForCitibike" */;
 			buildPhases = (
+				31CFD9668B343D62C222A8C3 /* [CP] Check Pods Manifest.lock */,
+				23047D4B20EAABBB003401BC /* Generate Apollo GraphQL API */,
 				23EAF56220EA9B57000D3753 /* Sources */,
 				23EAF56320EA9B57000D3753 /* Frameworks */,
 				23EAF56420EA9B57000D3753 /* Resources */,
+				A96454DF2B0454E6C87CB002 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23EAF59420EA9B58000D3753 /* Build configuration list for PBXNativeTarget "CompanionForCitibikeTests" */;
 			buildPhases = (
+				3E4E0D4B1D90011D685860F6 /* [CP] Check Pods Manifest.lock */,
 				23EAF57920EA9B58000D3753 /* Sources */,
 				23EAF57A20EA9B58000D3753 /* Frameworks */,
 				23EAF57B20EA9B58000D3753 /* Resources */,
@@ -170,6 +223,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23EAF59720EA9B58000D3753 /* Build configuration list for PBXNativeTarget "CompanionForCitibikeUITests" */;
 			buildPhases = (
+				0ADA52FF14226CB71E0FD9B2 /* [CP] Check Pods Manifest.lock */,
 				23EAF58420EA9B58000D3753 /* Sources */,
 				23EAF58520EA9B58000D3753 /* Frameworks */,
 				23EAF58620EA9B58000D3753 /* Resources */,
@@ -232,6 +286,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23B1E9C820EAB7AF0071B046 /* schema.json in Resources */,
+				23B1E9C920EAB7AF0071B046 /* StationList.graphql in Resources */,
 				23EAF57720EA9B58000D3753 /* LaunchScreen.storyboard in Resources */,
 				23EAF57420EA9B58000D3753 /* Assets.xcassets in Resources */,
 				23EAF56F20EA9B57000D3753 /* Main.storyboard in Resources */,
@@ -254,6 +310,95 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0ADA52FF14226CB71E0FD9B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CompanionForCitibikeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23047D4B20EAABBB003401BC /* Generate Apollo GraphQL API */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Apollo GraphQL API";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "APOLLO_FRAMEWORK_PATH=\"$(eval find $FRAMEWORK_SEARCH_PATHS -name \"Apollo.framework\" -maxdepth 1)\"\n\nif [ -z \"$APOLLO_FRAMEWORK_PATH\" ]; then\necho \"error: Couldn't find Apollo.framework in FRAMEWORK_SEARCH_PATHS; make sure to add the framework to your project.\"\nexit 1\nfi\n\necho \"${SRCROOT}/${TARGET_NAME}\"\ncd \"${SRCROOT}/${TARGET_NAME}\"\n$APOLLO_FRAMEWORK_PATH/check-and-run-apollo-codegen.sh generate $(find . -name '*.graphql') --schema schema.json --output API.swift";
+		};
+		31CFD9668B343D62C222A8C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CompanionForCitibike-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E4E0D4B1D90011D685860F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CompanionForCitibikeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A96454DF2B0454E6C87CB002 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CompanionForCitibike/Pods-CompanionForCitibike-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Apollo/Apollo.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Apollo.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CompanionForCitibike/Pods-CompanionForCitibike-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		23EAF56220EA9B57000D3753 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +406,7 @@
 			files = (
 				23EAF56C20EA9B57000D3753 /* ViewController.swift in Sources */,
 				23EAF56A20EA9B57000D3753 /* AppDelegate.swift in Sources */,
+				23B1E9C720EAB7AF0071B046 /* API.swift in Sources */,
 				23EAF57220EA9B57000D3753 /* CompanionForCitibike.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +578,7 @@
 		};
 		23EAF59220EA9B58000D3753 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FAF9E15762CB7551D0544B2 /* Pods-CompanionForCitibike.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +596,7 @@
 		};
 		23EAF59320EA9B58000D3753 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 801293B42099D9C209945846 /* Pods-CompanionForCitibike.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +614,7 @@
 		};
 		23EAF59520EA9B58000D3753 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29CD78D35E44F9F4F7CA39EC /* Pods-CompanionForCitibikeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,6 +635,7 @@
 		};
 		23EAF59620EA9B58000D3753 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7F962203E042EBEBF7E941E /* Pods-CompanionForCitibikeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +656,7 @@
 		};
 		23EAF59820EA9B58000D3753 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6969D56832FF7ED2BBCD3E78 /* Pods-CompanionForCitibikeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -525,6 +676,7 @@
 		};
 		23EAF59920EA9B58000D3753 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA42A7AA1869A3A86428A0C8 /* Pods-CompanionForCitibikeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
